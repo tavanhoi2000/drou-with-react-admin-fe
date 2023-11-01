@@ -1,0 +1,8 @@
+
+.select__control.select__control--is-focused {
+  border: none;
+}
+
+.is-invalid-select .select__control {
+  border-color: #F64E60;
+}

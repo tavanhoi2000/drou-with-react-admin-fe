@@ -1,0 +1,16 @@
+{
+  "product_name":"Name",
+  "product_description":"Description",
+  "product_ip":"IP",
+  "product_add_name_required":"Name is Required",
+  "product_add_description_required":"Description is Required",
+  "product_add_ip_required":"Ip is Required",
+  "product_add_code_required": "Code is Required",
+  "product_add_name":"Name",
+  "product_add_description":"Description",
+  "product_add_ip":"Ip",
+  "product_add_code": "Code",
+  "product_add_new":"Add new product",
+  "product_add_error": "Add error",
+  "":""
+}

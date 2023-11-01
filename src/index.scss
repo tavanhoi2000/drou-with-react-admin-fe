@@ -1,0 +1,195 @@
+//   /* 3rd-party Plugins */
+ @import "~highlight.js/styles/googlecode.css";
+ @import "~perfect-scrollbar/css/perfect-scrollbar.css";
+
+//   /* Theme Styles */
+ @import "./app/common/_assets/sass/style.react.scss";
+
+//   /* Default Layout themes */
+ @import "./app/common/_assets/sass/themes/layout/header/base/light.scss";
+ @import "./app/common/_assets/sass/themes/layout/header/menu/light.scss";
+ @import "./app/common/_assets/sass/themes/layout/brand/light.scss";
+ @import "./app/common/_assets/sass/themes/layout/aside/dark.scss";
+
+ @import url('https:fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+//   /* Header themes */
+//   /* Light */
+ @import "./app/common/_assets/sass/themes/layout/header/base/light.scss";
+//   /* Dark */
+  @import "./app/common/_assets/sass/themes/layout/header/base/dark.scss";
+  
+//   /* Header Menu themes */
+//   /* Light */
+ @import "./app/common/_assets/sass/themes/layout/header/menu/light.scss";
+//   /* Dark */
+ @import "./app/common/_assets/sass/themes/layout/header/menu/dark.scss";
+
+  /* Brand themes */
+  .brand-dark { 
+   @import "./app/common/_assets/sass/themes/layout/brand/dark.scss";
+  } 
+  /* Light */
+ .brand-light { 
+   @import "./app/common/_assets/sass/themes/layout/brand/light.scss";
+ } 
+
+//   /* Aside themes */
+//   /* Dark */
+ @import "./app/common/_assets/sass/themes/layout/aside/dark.scss";
+//   /* Light */
+ @import "./app/common/_assets/sass/themes/layout/aside/light.scss";
+
+  .example-highlight {
+    padding: 0rem 1.5rem 1.75rem !important;
+  }
+
+.example-highlight > pre {
+  background: none transparent !important;
+  margin: 0 !important;
+  padding-top: 0.5rem; 
+  code { 
+      overflow-y: auto;
+      display: block;
+
+      span {
+        background: none transparent !important;
+      }
+  }
+}
+
+.json > pre {
+  background: none #fff !important;
+
+}
+
+.example-code > .json {
+  background: none #fff !important;
+}
+
+.symbol.symbol-45 > svg {
+  width: 100%;
+  max-width: 45px;
+  height: 45px;
+}
+
+.react-bootstrap-table {
+  overflow-x: auto;
+}
+
+.react-bootstrap-table {
+  th {
+    outline: none;
+   
+    &.sortable {  
+      .svg-icon-sort {
+        opacity: 0;
+      }
+  
+      &:hover {
+        cursor: pointer;
+
+        .svg-icon-sort {
+          opacity: 1;
+        }
+      }
+    }    
+  }
+
+   .table.table-head-custom thead tr {
+     .sortable-active {
+         color: $primary !important;
+     }
+   }
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.display-block {
+  display: block;
+}
+
+.selection-cell {
+  width: 50px;
+}
+
+
+
+
+.drawer-footer-fixed  {
+  position: fixed;
+  width: 100%;
+  height: 54px;
+  bottom: 0;
+  border-top: 1px solid #EBEDF3;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;;
+}
+
+.table-hover {
+  cursor: pointer;
+}
+
+.MuiSnackbarContent-root {
+  font-family: inherit !important;
+}
+
+.MuiTypography-body2 {
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.MuiStepIcon-text {
+  fill: rgba(0, 0, 0, 0.87);
+  font-size: 0.75rem;
+  font-family: inherit !important;
+}
+
+.ql-container {
+  font-family: inherit !important;
+  font-size: inherit !important;
+
+}
+
+.brand-logo img {
+  width: 100px;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.t-15 {
+  top: 15px;
+}
+
+.r-10 {
+  right: 10px
+}
+
+.w-500 {
+  width: 500px;
+}
+.white__space-nowrap {
+  white-space: nowrap;
+}
+
+.text__overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .aside {
+    width: 200px;
+  }
+  
+  .aside-fixed .wrapper {
+    width: 200px;
+    padding-left: 200px;
+  }
+}

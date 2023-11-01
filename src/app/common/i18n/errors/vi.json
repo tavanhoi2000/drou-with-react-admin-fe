@@ -1,0 +1,8 @@
+{
+  "can_not_edit_subject_of_used_syllabys": "Không được sửa thông tin của bài giảng đang được sử dụng",
+
+  "wrong_pass_code": "Mã cuộc họp không chính xác!",
+  "not_invited_to_meeting": "Bạn chưa được mời tham dự buổi này. Vui lòng liên hệ ban tổ chức!",
+  "limited_device": "Cuộc họp hạn chế một người dùng tham gia bằng nhiều thiết bị (Máy tính, trình duyệt, điện thoại). Bạn hiện đang tham gia cuộc họp bằng một thiết bị khác. Vui lòng sử dụng đúng thông tin đăng nhập của mình hoặc thoát các thiết bị khác để tham gia cuộc họp này",
+  "":""
+}

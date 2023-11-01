@@ -1,0 +1,10 @@
+.box-input-password {
+  position: relative;
+}
+
+.box-input-password .toggle-password {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+}
